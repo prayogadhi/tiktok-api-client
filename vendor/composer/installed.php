@@ -3,7 +3,7 @@
         'name' => 'adi/tiktok-api-client',
         'pretty_version' => 'dev-main',
         'version' => 'dev-main',
-        'reference' => 'c1ea1de8b6c169d16b71067c22eff688ca67b64b',
+        'reference' => '13d51eddffcc76a718019dbee70282a57c0e62b0',
         'type' => 'library',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -13,7 +13,7 @@
         'adi/tiktok-api-client' => array(
             'pretty_version' => 'dev-main',
             'version' => 'dev-main',
-            'reference' => 'c1ea1de8b6c169d16b71067c22eff688ca67b64b',
+            'reference' => '13d51eddffcc76a718019dbee70282a57c0e62b0',
             'type' => 'library',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),

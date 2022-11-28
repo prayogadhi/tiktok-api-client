@@ -4,7 +4,7 @@
 
 namespace Composer\Autoload;
 
-class ComposerStaticInit75193c5880fc73cba33e92d2412f4238
+class ComposerStaticInitfde2082f442ab4b8de4e8bbb8d094f2e
 {
     public static $files = array (
         '7b11c4dc42b3b3023073cb14e519683c' => __DIR__ . '/..' . '/ralouphie/getallheaders/src/getallheaders.php',
@@ -27,7 +27,7 @@ class ComposerStaticInit75193c5880fc73cba33e92d2412f4238
         ),
         'A' => 
         array (
-            'Adi\\TiktokApiClient\\' => 20,
+            'Adi\\TiktokshopApiClient\\' => 24,
         ),
     );
 
@@ -53,7 +53,7 @@ class ComposerStaticInit75193c5880fc73cba33e92d2412f4238
         array (
             0 => __DIR__ . '/..' . '/guzzlehttp/guzzle/src',
         ),
-        'Adi\\TiktokApiClient\\' => 
+        'Adi\\TiktokshopApiClient\\' => 
         array (
             0 => __DIR__ . '/../..' . '/src',
         ),
@@ -66,9 +66,9 @@ class ComposerStaticInit75193c5880fc73cba33e92d2412f4238
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
-            $loader->prefixLengthsPsr4 = ComposerStaticInit75193c5880fc73cba33e92d2412f4238::$prefixLengthsPsr4;
-            $loader->prefixDirsPsr4 = ComposerStaticInit75193c5880fc73cba33e92d2412f4238::$prefixDirsPsr4;
-            $loader->classMap = ComposerStaticInit75193c5880fc73cba33e92d2412f4238::$classMap;
+            $loader->prefixLengthsPsr4 = ComposerStaticInitfde2082f442ab4b8de4e8bbb8d094f2e::$prefixLengthsPsr4;
+            $loader->prefixDirsPsr4 = ComposerStaticInitfde2082f442ab4b8de4e8bbb8d094f2e::$prefixDirsPsr4;
+            $loader->classMap = ComposerStaticInitfde2082f442ab4b8de4e8bbb8d094f2e::$classMap;
 
         }, null, ClassLoader::class);
     }
