@@ -1,5 +1,5 @@
 # tiktok-api-client
-Unofficial TikTok Shop API Client build in PHP
+TikTok Shop API Client created use PHP
 
 ### How To Install
 
