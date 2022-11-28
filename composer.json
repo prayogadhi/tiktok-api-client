@@ -1,0 +1,19 @@
+{
+    "name": "adi/tiktok-api-client",
+    "description": "TikTok Shop API Client created use PHP",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Adi\\TiktokshopApiClient\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Adhi Prayoga",
+            "email": "adhiprayogaaa@gmail.com"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "^7.0"
+    }
+}
